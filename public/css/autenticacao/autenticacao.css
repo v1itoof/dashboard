@@ -1,0 +1,86 @@
+.tela-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+/* Estilos para a div que contém o gradiente animado */
+.gradient-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(-45deg, #35374B, #344955, #61677A);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Animação do gradiente */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.tela-login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela-login .container .box-login{
+    max-width: 450px;
+    width: 100%;
+    padding: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #272829;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.tela-login .container .box-login .form-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tela-login .container .box-login .form-container form{
+    width: 100%;
+}
+
+.tela-login .container .box-login .form-container form button{
+    background: #206A5D !important;
+    border: none;
+}
+
+.tela-login .container .box-login .form-container input{
+    background: #272829 !important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #31363F !important;
+}
+
+.tela-login .container .box-login .form-container input::-webkit-input-placeholder {
+    color: #fff;
+}
+.tela-login .container .box-login .form-container input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+

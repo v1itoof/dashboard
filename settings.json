@@ -1,0 +1,11 @@
+{
+    "intelephense.environment.phpVersion": "auto",
+    "intelephense.environment.composerJsonPath": "${workspaceRoot}/composer.json",
+    "intelephense.diagnostics.run": "onType",
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.completion.basic": true,
+    "intelephense.completion.insertUseDeclaration": true,
+    "intelephense.completion.triggerParameterHints": true,
+    "php.suggest.basic": true
+}

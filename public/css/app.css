@@ -1,0 +1,54 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: inherit; /* Mantém a cor padrão do texto */
+    cursor: pointer; /* Define o cursor como ponteiro para indicar que é clicável */
+}
+
+a:hover {
+    color: inherit; /* Mantém a cor do texto ao passar o mouse */
+}
+
+
+/* Estilos para botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+

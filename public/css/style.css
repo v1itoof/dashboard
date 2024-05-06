@@ -33,7 +33,7 @@ body {
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
-    background-color: #fafbfe;
+    background-color: #272829;
 }
 
 #sidebar {
@@ -49,6 +49,7 @@ body {
 #sidebar.expand {
     width: 260px;
     min-width: 260px;
+    transition: .5s;
 }
 
 .toggle-btn {
@@ -65,12 +66,14 @@ body {
 
 .sidebar-logo {
     margin: auto 0;
+    overflow: hidden;
 }
 
 .sidebar-logo a {
     color: #FFF;
     font-size: 1.15rem;
     font-weight: 600;
+    transition: .5s;
 }
 
 #sidebar:not(.expand) .sidebar-logo,
@@ -84,26 +87,27 @@ body {
 }
 
 a.sidebar-link {
-    padding: .625rem 1.625rem;
+    padding: .925rem 1.625rem;
     color: #FFF;
-    display: block;
+    display: flex;
     font-size: 0.9rem;
     white-space: nowrap;
     border-left: 3px solid transparent;
 }
 
 a.sidebar-link span{
-    margin-bottom: 1px;
 }
 
 .sidebar-link i {
     font-size: 1.1rem;
     margin-right: .75rem;
+    margin-bottom: .75rem;
 }
 
 a.sidebar-link:hover {
     background-color: rgba(255, 255, 255, .075);
-    border-left: 3px solid #3b7ddd;
+    border-left: 3px solid #1ba358;
+    color: #1ba358;
 }
 
 .sidebar-item {

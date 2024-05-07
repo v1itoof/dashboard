@@ -3,7 +3,7 @@
 @section('conteudo')
 
 <div class="card-table p-3">
-    <table id="table-home" class="table" style="width:100%">
+    <table id="table-home" class="tabela-usuarios" style="width:100%">
         <thead>
             <tr>
                 <th>ID</th>
@@ -16,7 +16,7 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Edinburgh</td>
+                <td>{{ Helpers::NomeSobrenome("João Victor Bezerra de Oliveira") }}</td>
                 <td>teste@gmail.com</td>
                 <td>12/02/2024</td>
                 <td>
@@ -29,24 +29,6 @@
                           <li><a class="dropdown-item text-danger" href="#"><i class="lni lni-trash-can"></i> Excluir</a></li>
                         </ul>
                       </div>
-                </td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Edinburgh</td>
-                <td>teste@gmail.com</td>
-                <td>12/02/2024</td>
-                <td>
-                    <i class="lni lni-more-alt"></i>
-                </td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Edinburgh</td>
-                <td>teste@gmail.com</td>
-                <td>12/02/2024</td>
-                <td>
-                    <i class="lni lni-more-alt"></i>
                 </td>
             </tr>
         </tbody>

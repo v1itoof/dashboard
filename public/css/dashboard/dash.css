@@ -1,3 +1,76 @@
 .btn-option-rotate{
     transform: rotate(90deg);
 }
+
+.card-table{
+    background: #1b1b1b;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.tabela-usuarios{
+    margin: 25px 0;
+    color: #fff;
+}
+
+.tabela-usuarios thead tr th,
+.tabela-usuarios tbody tr td{
+    text-align: center !important;
+}
+
+.tabela-usuarios tbody tr td:first-child{
+    border-left: 1px solid #31363F;
+
+}
+
+.tabela-usuarios tbody tr td{
+    padding: 10px;
+    border-right: 1px solid #31363F;
+    border-bottom: 1px solid #31363F;
+}
+
+.tabela-usuarios thead{
+    background: #31363F;
+}
+
+.tabela-usuarios thead tr th{
+    padding: 10px;
+    border: 1px solid #31363F;
+}
+
+.pagination .page-link {
+    background-color: #31363F;
+    border-color: #31363F;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #232529;
+    border-color: #232529;
+}
+
+.pagination .page-item.active .page-link:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #ccc;
+}
+
+.pagination .page-item.disabled .page-link:hover {
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+    cursor: not-allowed;
+}

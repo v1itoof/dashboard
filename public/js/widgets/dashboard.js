@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     new DataTable('#table-home', {
+        ordering: false,
         language: {
             "emptyTable":     "Nenhum resultado disponível...",
             "info":           "_START_ - _END_ de _TOTAL_",

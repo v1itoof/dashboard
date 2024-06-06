@@ -24,45 +24,12 @@
         <link rel="stylesheet" type="text/css" href="/css/dashboard/dash.css">
     </head>
     <body>
-
-        <div class="wrapper">
-            <aside id="sidebar">
-                <div class="d-flex">
-                    <button id="toggle-btn" class="toggle-btn" type="button">
-                        <i class="lni lni-menu"></i>
-                    </button>
-                    <div class="sidebar-logo">
-                        <a href="">
-                            CodzEd
-                        </a>
-                    </div>
-                </div>
-                <ul class="sidebar-nav">
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="lni lni-home"></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="lni lni-users"></i>
-                            <span>Usuários</span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="sidebar-footer">
-                    <a href="" class="sidebar-link">
-                        <i class="lni lni-exit"></i>
-                        <span>Logout</span>
-                    </a>
-                </div>
-            </aside>
-            <div class="main p-3">
-                @yield('conteudo')
-            </div>
+        
+        <div class="main p-3">
+            @yield('conteudo')
         </div>
 
+        @yield('modais')
 
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

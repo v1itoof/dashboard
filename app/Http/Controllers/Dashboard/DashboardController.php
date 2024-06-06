@@ -11,13 +11,19 @@ use App\Models\User;
 class DashboardController extends Controller
 {
     public function index(Request $Request){
+        // Definindo o título da página
+
+        // Definindo o breadcrumb
+        $breadcrumb = [
+            ['title' => 'Home', 'url' => "/admin/dashboard"]
+        ];
+
         // Busca os usuarios no banco
         $users = User::all();
 
-        // Ou, se você quiser paginar os resultados
-        // $users = User::paginate(10); // 10 é o número de registros por página
         return view('home', [
-            'users' => $users
+            'users' => $users,
+            'breadcrumb' => $breadcrumb
         ]);
     }
 }
